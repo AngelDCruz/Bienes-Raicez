@@ -1,7 +1,10 @@
-.nav-link:hover{
-    opacity: .8;
-}
+/*
+    SLIDE
+*/
 
+.header{
+    position: relative;
+}
 
 .slide-img{
     width: 100%;
@@ -10,10 +13,10 @@
     height: 100%;
 }
 
-.header{
-    position: relative;
-}
 
+/*
+    NAVEGACION
+*/
 .navegacion{
     position: absolute;
     z-index: 111;
@@ -32,6 +35,10 @@
     font-weight: 600;
     font-size: .8em !important;
     text-transform: uppercase;
+}
+
+.nav-link:hover{
+    opacity: .8;
 }
 
 .dropdown-menu{
@@ -56,6 +63,58 @@
     border-color: #e08709;
     font-weight: 600;
 }
+
+
+/*
+    SOBRE NOSOTROS
+*/
+.title-header{
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #888;
+}
+
+.text-title{
+    font-size: 1.2em;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.lead-text{
+    font-size: 1em;
+}
+
+
+/*
+    ANUNCIOS
+*/
+.card-title{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #888;
+}
+
+.card-promition{
+    color: #888;
+}
+
+.card-promition > span{
+    font-size: 1em;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.card-description-body{
+    color: #777;
+}
+
+.card-price {
+    font-size: 1.2em;
+}
+
+
+
 
 @media (min-width: 992px){
 
