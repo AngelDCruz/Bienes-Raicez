@@ -1,0 +1,71 @@
+.nav-link:hover{
+    opacity: .8;
+}
+
+
+.slide-img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.header{
+    position: relative;
+}
+
+.navegacion{
+    position: absolute;
+    z-index: 111;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 1.6em;
+}
+
+.navbar-city{
+    font-weight: 700;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: .8em !important;
+    text-transform: uppercase;
+}
+
+.dropdown-menu{
+    background: #71b100
+}
+
+.dropdown-item{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.dropdown-item:hover{
+    background: #e08709 !important;
+}
+
+.carousel-description{
+    font-weight: 300;
+}
+
+.btn-moreinfo{
+    border-color: #e08709;
+    font-weight: 600;
+}
+
+@media (min-width: 992px){
+
+    .navegacion{
+        background: rgba(0, 0, 0, 0) !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .slide-caption{
+        transform: translateY(-75px) !important;
+    }
+}
