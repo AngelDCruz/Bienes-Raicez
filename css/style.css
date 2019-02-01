@@ -159,6 +159,31 @@
     font-size: .9em;
 }
 
+/*
+    TESTIMONIAL
+*/
+.testimonial-text{
+    background: #71b100;
+    position: relative;
+    padding: 2em 4em !important;
+    font-weight: 300;
+    color: #fff;
+    text-align: justify;
+}
+
+.testimonial-text::before{
+    content: open-quote;
+    font-size: 3.5em;
+    font-weight: 400;
+    position: absolute;
+    top: 4px;
+    left: 35px;
+}
+
+.testimonial-text > span{
+    font-weight: 600;
+}
+
 @media (min-width: 768px){
     .encuentra-title{
         font-size: 2em;
